@@ -2,6 +2,7 @@ import pygame
 shuriken = pygame.image.load('images/shur.png')
 
 class Naruto():
+    # init
     def __init__(self, x, y, width, height):
 	    self.x = x
 	    self.y = y
